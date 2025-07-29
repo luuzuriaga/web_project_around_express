@@ -1,0 +1,30 @@
+{
+  "name": "web_project_around_express",
+  "version": "1.0.0",
+  "description": "Backend para el proyecto Alrededor de los EE. UU.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luuzuriaga/web_project_around_express.git"
+  },
+  "author": "Lucero Uzuriaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luuzuriaga/web_project_around_express/issues"
+  },
+  "homepage": "https://github.com/luuzuriaga/web_project_around_express#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "nodemon": "^3.1.10"
+  }
+}
