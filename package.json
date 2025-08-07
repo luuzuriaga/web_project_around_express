@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/luuzuriaga/web_project_around_express#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0",
+    "validator": "^13.15.15"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
