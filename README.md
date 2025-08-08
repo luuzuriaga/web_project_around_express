@@ -1,18 +1,27 @@
-# Tripleten web_project_around_express
+# Around the US - Backend API 🚀
 
-# Around the US - Backend
+![Node.js](https://img.shields.io/badge/Node.js-18-green)
+![Express](https://img.shields.io/badge/Express-5-blue)
+![MongoDB](https://img.shields.io/badge/MongoDB-8-green)
 
-## Descripción
-Servidor backend para el proyecto "Around the US". Proporciona una API RESTful para gestionar usuarios y tarjetas (posts), simulando una base de datos con archivos JSON.
+## 📌 Descripción
+API RESTful para el proyecto "Around the US" que permite:
+- Gestión de usuarios (registro, perfil, avatar)
+- Publicación y interacción con tarjetas (likes)
+- Autenticación básica temporal
+- Validación avanzada de datos
 
-## Tecnologías
-- **Node.js**: Entorno de ejecución.
-- **Express**: Framework para el servidor.
-- **ESLint**: Linter con configuración Airbnb.
-- **Nodemon**: Hot reload en desarrollo.
+🔗 **Base de datos**: MongoDB Atlas/MongoDB Local
 
-## Instalación
-1. Clona el repositorio.
-2. Instala dependencias:
-   ```bash
-   npm install
+---
+
+## 🛠 Tecnologías Utilizadas
+| Tecnología | Uso |
+|------------|-----|
+| **Node.js** | Entorno de ejecución |
+| **Express** | Framework del servidor |
+| **Mongoose** | Conexión y modelos con MongoDB |
+| **Validator.js** | Validación de URLs |
+| **ESLint** | Linter con estándar Airbnb |
+
+
