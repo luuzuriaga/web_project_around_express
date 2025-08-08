@@ -24,10 +24,4 @@ API RESTful para el proyecto "Around the US" que permite:
 | **Validator.js** | Validación de URLs |
 | **ESLint** | Linter con estándar Airbnb |
 
-## 📸 Capturas
-### Estructura del Proyecto
-![Estructura](https://i.imgur.com/ejemplo1.png)
 
-### Ejemplo de Petición
-```bash
-GET /users/507f1f77bcf86cd799439011
