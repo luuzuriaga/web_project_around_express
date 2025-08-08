@@ -20,3 +20,19 @@ module.exports.createCard = (req, res) => {
       }
     });
 };
+
+module.exports.deleteCard = async (req, res) => {
+  try {
+    const card = await Card.findByIdAndDelete(req.params.cardId);
+    if (!card) {
+      return res.status(404).send({ message: 'Tarjeta no encontrada' });
+    }
+    res.send({ message: 'Tarjeta eliminada correctamente', data: card });
+  } catch (err) {
+    if (err.name === 'CastError') {
+      res.status(400).send({ message: 'ID de tarjeta inválido' });
+    } else {
+      res.status(500).send({ message: 'Error del servidor' });
+    }
+  }
+};
